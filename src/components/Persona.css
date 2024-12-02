@@ -1,1 +1,35 @@
-    
+.Persona {
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    border-radius: 2px;
+    padding: 0.5em;
+    width: 120px;
+    height: 160px;
+    background-color: white;
+}
+
+.Persona:hover{
+    zoom: 120%;
+}
+
+.Persona-imagen img{ 
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 2px;
+
+}
+.Persona-name, .Persona-location {
+    font-size: 10pt;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Persona-name {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+
+.Persona-location{
+    font-size: 9pt;
+}
